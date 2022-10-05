@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 7</title>
+</head>
+
+<body>
+    <!-- start  -->
+
+    <div id="wrap">
+        <header>
+            <div class="buttons">
+                <h1 id="hed"> TypeScript Assignment 7</h1>
+                <a href="#" onclick="toggleVisibility('Menu1');">1</a>
+                <a href="#" onclick="toggleVisibility('Menu2');">2</a>
+                <a href="#" onclick="toggleVisibility('Menu3');">3</a>
+                <a href="#" onclick="toggleVisibility('Menu4');">4</a>
+                <a href="#" onclick="toggleVisibility('Menu5');">5</a>
+                <a href="#" onclick="toggleVisibility('Menu6');">6</a>
+                <a href="#" onclick="toggleVisibility('Menu7');">7</a>
+                <a href="#" onclick="toggleVisibility('Menu8');">8</a>
+                <a href="#" onclick="toggleVisibility('Menu9');">9</a>
+                <a href="#" onclick="toggleVisibility('Menu10');">10</a>
+                <a href="#" onclick="toggleVisibility('Menu11');">11</a>
+                <a href="#" onclick="toggleVisibility('Menu12');">12</a>
+                <a href="#" onclick="toggleVisibility('Menu13');">13</a>
+                <a href="#" onclick="toggleVisibility('Menu14');">14</a>
+                <a href="#" onclick="toggleVisibility('Menu15');">15</a>
+                <a href="#" onclick="toggleVisibility('Menu16');">16</a>
+                <a href="#" onclick="toggleVisibility('Menu17');">17</a>
+                <a href="#" onclick="toggleVisibility('Menu18');">18</a>
+                <a href="#" onclick="toggleVisibility('Menu19');">19</a>
+                <a href="#" onclick="toggleVisibility('Menu20');">20</a>
+                <a href="#" onclick="toggleVisibility('Menu21');">21</a>
+                <a href="#" onclick="toggleVisibility('Menu22');">22</a>
+                <a href="#" onclick="toggleVisibility('Menu23');">23</a>
+                <a href="#" onclick="toggleVisibility('Menu24');">24</a>
+                <a href="#" onclick="toggleVisibility('Menu25');">25</a>
+                <a href="#" onclick="toggleVisibility('Menu26');">26</a>
+                <a href="#" onclick="toggleVisibility('Menu27');">27</a>
+                <a href="#" onclick="toggleVisibility('Menu28');">28</a>
+                <a href="#" onclick="toggleVisibility('Menu29');">29</a>
+                <a href="#" onclick="toggleVisibility('Menu30');">30</a>
+                <a href="#" onclick="toggleVisibility('Menu31');">31</a>
+                <a href="#" onclick="toggleVisibility('Menu32');">32</a>
+                <a href="#" onclick="toggleVisibility('Menu33');">33</a>
+                <a href="#" onclick="toggleVisibility('Menu34');">34</a>
+                <a href="#" onclick="toggleVisibility('Menu35');">35</a>
+                <a href="#" onclick="toggleVisibility('Menu36');">36</a>
+                <a href="#" onclick="toggleVisibility('Menu37');">37</a>
+                <a href="#" onclick="toggleVisibility('Menu38');">38</a>
+                <a href="#" onclick="toggleVisibility('Menu39');">39</a>
+                <a href="#" onclick="toggleVisibility('Menu40');">40</a>
+                <a href="#" onclick="toggleVisibility('Menu41');">41</a>
+                <a href="#" onclick="toggleVisibility('Menu42');">42</a>
+                <a href="#" onclick="toggleVisibility('Menu43');">43</a>
+                <a href="#" onclick="toggleVisibility('Menu44');">44</a>
+                <a href="#" onclick="toggleVisibility('Menu45');">45</a>
+                <a href="#" onclick="toggleVisibility('Menu46');">46</a>
+                <a href="#" onclick="toggleVisibility('Menu47');">47</a>
+                <a href="#" onclick="toggleVisibility('Menu48');">48</a>
+                <a href="#" onclick="toggleVisibility('Menu49');">49</a>
+                <a href="#" onclick="toggleVisibility('Menu50');">50</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- question No.1  -->
+            <div id="Menu1">
+                <h1>1. Write a ts program to find length of a string.</h1><br>
+                <p>
+                    var Question1 = () => { <br>
+                    var name: any | null = prompt("Enter Your Name", "Saqib Ali"); <br>
+                    var len = name.length <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question1Ans'); <br>
+                        myContainer.innerHTML += "Name :" + name + " <br>Length: " + len <br>
+                        } <br>
+                </p>
+                <button onclick="Question1()" id="a"><span>Run ...</span></button>
+            </div>
+            <!-- question No.1 >>>> The End  -->
+
+            <!-- question No.2  -->
+            <div id="Menu2" style="display: none;">
+                <h1>2. Write a ts program to copy one string to another string.</h1><br>
+                <p>
+                    var Question2 = () => { <br>
+                    var name: any | null = prompt("Enter Your Name", "Saqib Ali"); <br>
+                    var copy = name.slice(); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question2Ans'); <br>
+                        myContainer.innerHTML += "Name :" + name + " <br>Copy: " + copy <br>
+                        } <br>
+                </p>
+                <button onclick="Question2()" id="a"><span>Run ...</span></button>
+            </div>
+            <!-- end  -->
+
+            <!-- question No.3  -->
+
+            <div id="Menu3" style="display: none;">
+                <h1>3. Write a ts program to concatenate two strings.</h1><br>
+                <p>
+
+                    var Question3 = () => { <br>
+                    var fname: any | null = prompt("Enter Your First Name", "Saqib"); <br>
+                    var lname: any | null = prompt("Enter Your Last Name", "Ali"); <br>
+                    var fullName = fname.concat(lname); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question3Ans'); <br>
+                        myContainer.innerHTML += "First Name :" + fname + " <br>Last Name : " + lname+ " <br> Full
+                        Name:" +fullName <br>
+                        }
+                </p>
+                <button onclick="Question3()" id="a"><span>Run ...</span></button>
+            </div>
+
+            <!-- end  -->
+            <!-- question No.4  -->
+
+            <div id="Menu4" style="display: none;">
+
+                <h1>4. Write a ts program to compare two strings.</h1><br>
+                <p>
+
+                    var Question4 = () => { <br>
+                    var fname: any | null = prompt("Enter Your First Name", "Saqib"); <br>
+                    var lname: any | null = prompt("Enter Your First Name", "Saqib"); <br>
+                    var Nm1 = fname.toUpperCase(); <br>
+                    var Nm2 = lname.toUpperCase(); <br>
+                    var result = Nm1 === Nm2; <br>
+                    if (result) <br>
+                    { <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question4Ans'); <br>
+                        myContainer.innerHTML += "The Strings are Similar :<br>" + result ; <br>
+                        } <br>
+                        else <br>
+                        { <br>
+                        let myContainer = <HTMLElement>document.getElementById('Question4Ans'); <br>
+                            myContainer.innerHTML += "The Strings are not Similar :<br>" + result ; <br>
+                            } <br>
+                            } <br>
+                </p>
+                <button onclick="Question4()" id="a"><span>Run ...</span></button>
+            </div>
+
+            <!-- end  -->
+
+            <!-- question No.5  -->
+
+            <div id="Menu5" style="display: none;">
+                <h1> 5. Write a ts program to convert lowercase string to uppercase.</h1><br>
+                <p>
+                    var Question5 = () => { <br>
+                    var userInput: any | null = prompt("Enter You Peragraph", "saqib ali"); <br>
+                    var str = userInput.toUpperCase(); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question5Ans'); <br>
+                        myContainer.innerHTML += "The convert lowercase to uppercas:<br>" + str; <br>
+                        }
+                </p> <br>
+                <button onclick="Question5()" id="a"><span>Run ...</span></button>
+            </div>
+            <!-- question No.6  -->
+
+            <div id="Menu6" style="display: none;">
+                <h1> 6. Write a ts program to convert uppercase string to lowercase.</h1><br>
+                <p>
+                    var Question6 = () => { <br>
+                    var userInput: any | null = prompt("Enter You Peragraph", "SAQIB ALI"); <br>
+                    var str = userInput.toLowerCase(); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question6Ans'); <br>
+                        myContainer.innerHTML += "The convert uppercas to lowercase: <br>" + str; <br>
+                        <br>
+                        } <br>
+                </p>
+                <button onclick="Question6()" id="a"><span>Run ...</span></button>
+            </div>
+            <!-- question No.7  -->
+
+            <div id="Menu7" style="display: none;">
+
+                <h1> 7. Write a ts program to toggle case of each character of a string.</h1><br>
+                <p> <br>
+                    var Question7 = () => { <br>
+                    var text: any | null = prompt("Enter You Peragraph", "SAQIB ali"); <br>
+                    var ans = text.split('') <br>
+                    .map((c:any) => <br>
+                    c === c.toUpperCase() <br>
+                    ? c.toLowerCase() <br>
+                    : c.toUpperCase() <br>
+                    ).join('') <br>
+                    <br>
+                    console.log(ans) <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question7Ans'); <br>
+                        myContainer.innerHTML +="Input Text: <br>" + text +" <br> The Toggle Case: <br>" + ans; <br>
+                        <br>
+                        } <br>
+                </p>
+                <button onclick="Question7()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <!-- question No.8  -->
+
+            <div id="Menu8" style="display: none;">
+                <h1>8. Write a ts program to find total number of alphabets, digits or special character in a string.
+                </h1> <br>
+                <p> <br>
+                    var Question8 = () => { <br>
+                    var str: any | null = prompt("Enter You Peragraph", "SAQIB ali 102030 /.,<>"); <br>
+                        var alphabetic: string = ''; <br>
+                        var digit: number = 0; <br>
+                        var specialChar: any = 0; <br>
+                        var spaces: any = 0; <br>
+                        for (var i = 0; i < str.length; i++) { <br>
+                            var ch = str[i]; <br>
+                            <br>
+                            if ((ch >= "a" && ch <= "z" ) || (ch>= "A" && ch <= "Z" )) { <br>
+                                    // To handle upper case letters <br>
+                                    alphabetic += ch.toLowerCase(); <br>
+                                    console.log("Alpha", alphabetic); <br>
+                                    <br>
+                                    <br>
+                                    } <br>
+                                    else if (ch >= "0" && ch <= "9" ) { <br>
+                                        digit++; <br>
+                                        console.log("dig", digit); <br>
+                                        <br>
+                                        } <br>
+                                        else if (ch == '') { <br>
+                                        spaces++; <br>
+                                        console.log("Space" + spaces); <br>
+                                        <br>
+                                        } <br>
+                                        else { <br>
+                                        specialChar++; <br>
+                                        console.log("sp", specialChar); <br>
+                                        } <br>
+                                        <br>
+                                        } <br>
+                                        let myContainer = <HTMLElement>document.getElementById('Question8Ans'); <br>
+                                            myContainer.innerHTML += "User Input Text :" + str + "<br> Alphabetic :" +
+                                            alphabetic + " <br> Digit :" + digit + " <br> SpecialChar :" + specialChar +
+                                            "<br> Spaces :" + spaces;
+                                            }
+                                            <br> <br>
+                </p>
+                <button onclick="Question8()" id="a"><span>Run ...</span></button>
+            </div>
+
+            <!-- question No.9  -->
+
+            <div id="Menu9" style="display: none;">
+
+                <h1>9. Write a ts program to count total number of vowels and consonants in a string.</h1> <br>
+                <p> <br>
+                    var Question9 = () => { <br>
+                    var str: any | null = prompt("Enter You Peragraph", "SAQIB ali"); <br>
+                    str = str.toLowerCase(); <br>
+                    var vowelsCount: number = 0; <br>
+                    for (let i = 0; i < str.length; i++) { <br>
+                        if (str.charAt(i) == "a" || str.charAt(i) == "e" || str.charAt(i) == "i" || str.charAt(i) == "o"
+                        || str.charAt(i) == "u") { <br>
+                        vowelsCount += 1; <br>
+                        } <br>
+                        // console.log("Vowel" + vowelsCount); <br>
+                        } <br>
+                        let myContainer = <HTMLElement>document.getElementById('Question9Ans'); <br>
+                            myContainer.innerHTML += "User Input Text :" + str + "<br> VowelsCount :" + vowelsCount <br>
+                            } <br>
+
+                </p>
+                <button onclick="Question9()" id="a"><span>Run ...</span></button>
+
+
+            </div>
+
+            <!-- question No.10  -->
+
+            <div id="Menu10" style="display: none;">
+
+                <h1>10. Write a ts program to count total number of words in a string.</h1> <br>
+                <p> <br>
+                    var Question10 = () => { <br>
+                    var str: any | null = prompt("Enter <br> You Peragraph", "SAQIB ali"); <br>
+                    str = str.toLowerCase();
+                    var result = str.split(' ').length; <br>
+                    console.log("Result : " + result); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question10Ans'); <br>
+                        myContainer.innerHTML += "User Input Text :" + str + "<br> Total Word:" + result <br>
+                        } <br>
+                </p>
+                <button onclick="Question10()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu11" style="display: none;">
+
+                <h1>11. Write a ts program to find reverse of a string.</h1> <br>
+                <p> <br>
+                    var Question11 = () => { <br>
+                    var str: any | null = prompt("Enter You Peragraph", "SAQIB ali"); <br>
+                    str = str.toLowerCase(); <br>
+                    var result: string = " "; <br>
+                    for (let i = str.length - 1; i >= 0; i--) { <br>
+                    result += str[i] <br>
+                    } <br>
+                    console.log("Reverse : " + result); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question11Ans'); <br>
+                        myContainer.innerHTML += "User Input Text :" + str + "<br> Reverse :" + result <br>
+                        } <br>
+                </p>
+                <button onclick="Question11()" id="a"><span>Run ...</span></button>
+
+            </div>
+
+            <div id="Menu12" style="display: none;">
+
+                <h1>12. Write a ts program to check whether a string is palindrome or not.</h1> <br>
+                <p> <br>
+                    var Question12 = () => { <br>
+                    var str: any | null = prompt("Enter You palindrome Word", "civic"); <br>
+                    str = str.toLowerCase(); <br>
+                    var checkWord: string = ''; <br>
+                    for (var i = str.length - 1; i >= 0; i--) { <br>
+                    checkWord += str[i]; <br>
+                    <br>
+                    } <br>
+                    if (str === checkWord) { <br>
+                    console.log(checkWord, " is Palindrome Word"); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question12Ans'); <br>
+                        myContainer.innerHTML += "User Input Text :" + str + "<br>" + checkWord + " :is Palindrome
+                        Word"; <br>
+                        } <br>
+                        else { <br>
+                        console.log(checkWord, " is not Palindrome Word"); <br>
+                        let myContainer = <HTMLElement>document.getElementById('Question12Ans'); <br>
+                            myContainer.innerHTML += "User Input Text :" + str + "<br>" + checkWord + " :is not
+                            Palindrome Word"; <br>
+                            <br>
+                            } <br>
+                            } <br>
+                </p>
+                <button onclick="Question12()" id="a"><span>Run ...</span></button>
+
+            </div>
+
+            <div id="Menu13" style="display: none;">
+                <h1>13. Write a ts program to reverse order of words in a given string</h1> <br>
+                <p>
+                    var Question13 = () => { <br>
+                    <br>
+                    var str: any | null = prompt("Enter Your Sentence", "Saqib Ali"); <br>
+                    const reverseString = (input: string) => { <br>
+                    return input.split(' ').reverse().join(' '); <br>
+                    }; <br>
+                    var show = reverseString(str) <br>
+                    console.log(show); <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question13Ans'); <br>
+                        myContainer.innerHTML += " User Input Text :" + str + "<br> <br> Reverse Word : " + show;
+                        <br>
+                        //The join() method returns an array as a string.
+                        //The join() method does not change the original array <br>. <br>
+                        // Split the words, and return the second word: <br>
+                        } <br>
+                </p>
+                <button onclick="Question13()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu14" style="display: none;">
+
+                <h1>14. Write a ts program to find first occurrence of a character in a given string.</h1> <br>
+                <p>
+                    var Question14 = () => { <br>
+                    var str: any | null = prompt("Enter Your Sentence", "Saqib Ali"); <br>
+                    var ser: any | null = prompt("Enter Your Search Word", "A"); <br>
+                    var show; <br>
+                    for (let i = 0; i < str.length; i++) { <br>
+                        if (str[i] == ser) { <br>
+                        <br>
+                        show = i + 1 <br>
+                        } <br>
+                        let myContainer = <HTMLElement>document.getElementById('Question14Ans'); <br>
+                            myContainer.innerHTML += " User Input Text :" + str + "<br> <br> Occurrence of a Character:
+                            " + show;
+                            } <br>
+                            <br>
+                            } <br>
+                </p>
+                <button onclick="Question14()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu15" style="display: none;">
+
+                <h1>15. Write a ts program to find last occurrence of a character in a given string.</h1> <br>
+                <p>
+                    var Question15 = () => { <br>
+                    var str: any | null = prompt("Enter Your String", "Saqib Ali"); <br>
+                    <br>
+                    var result: string = " "; <br>
+                    for (let i = str.length - 1; i >= 0; i--) { <br>
+                    result += str[i] <br>
+                    } <br>
+                    console.log("Last Character : " + result[1]); <br>
+                    <br>
+                    let myContainer = <HTMLElement>document.getElementById('Question15Ans'); <br>
+                        myContainer.innerHTML += " User Input Text :" + str + "<br> <br> Last Character: " + result[1];
+                        <br>
+                        } <br>
+                </p>
+                <button onclick="Question15()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu16" style="display: none;">
+                <h1>16. Write a ts program to search all occurrences of a character in given string.</h1> <br>
+                <p>
+                    var Question16 = () => { <br>
+                    var str: any | null = prompt("Enter Your String Character", "Saqib Ali"); <br>
+                    var search: any | null = prompt("Enter Your word to be search", "A"); <br>
+
+                    var countText: number = 0; <br>
+                    for (let i = 0; i < str.length; i++) { <br>
+                        if (str.charAt(i) == search) { <br>
+                        countText += 1; <br>
+                        } <br>
+                        console.log(countText); <br>
+                        } <br>
+                        let myContainer = <HTMLElement>document.getElementById('Question16Ans'); <br>
+                            myContainer.innerHTML += " User Input Text :" + str + "<br> <br> Count Character: " +
+                            countText;
+
+                            <br>
+                            } <br>
+                </p>
+                <button onclick="Question16()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu17" style="display: none;">
+                <h1>17. Write a ts program to count occurrences of a character in given string..</h1> <br>
+                <p>
+                    var Question17 = () => { <Br>
+                    var str: any | null = prompt("Enter Your String Character", "Saqib Ali"); <Br>
+                    var search: any | null = prompt("Enter Your Search Word", "Ali"); <Br>
+                    var result = str.split(`${search}`).length - 1; <Br>
+                    let myContainer = <HTMLElement>document.getElementById('Question17Ans'); <Br>
+                        myContainer.innerHTML += " User Input Text :" + str + "<br> <br> Count Character: " + result;
+                        <Br>
+                        } <Br>
+                </p>
+                <button onclick="Question17()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu18" style="display: none;">
+
+                <h1>18. Write a ts program to find highest frequency character in a string.</h1> <br>
+                <p>
+                    var Question18 = () => { <br>
+                    var s: any | null = prompt("Enter Your String Character", "SAQIB Ali SS A "); <br>
+                    var findChar = function (str: any) { <br>
+                    var char: any; <br>
+                    for (var i = 0; i < str.length; i++) { <br>
+                        if (str.indexOf(str[i]) < str.lastIndexOf(str[i])) { <br>
+                            char = str[i]; <br>
+                            console.log("Char", char); <br>
+                            break; <br>
+                            } <br>
+                            } <br>
+                            let myContainer = <HTMLElement>document.getElementById('Question18Ans'); <br>
+                                myContainer.innerHTML += " User Input Text :" + s + "<br> Hight frequency: " + char;
+                                return char; <br>
+                                } <br>
+                                findChar(`${s}`); <br>
+                                } <br>
+                </p>
+                <button onclick="Question18()" id="a"><span>Run ...</span></button>
+            </div>
+            <div id="Menu19" style="display: none;">
+                <h1>19. Write a ts program to find lowest frequency character in a string.</h1>
+                <p>
+                    var Question19 = () => {
+
+
+                    var s: any | null = prompt("Enter Your String Character", "Saqib Ali"); <br>
+                    var findChar = function (str: any) { <br>
+                    var char: any; <br>
+                    for (var i = 0; i < str.length; i++) { <br>
+                        if (str.indexOf(str[i]) === str.lastIndexOf(str[i])) { <br>
+                        char = str[i]; <br>
+                        console.log("Char", char); <br>
+                        break; <br>
+                        } <br>
+                        } <br>
+                        let myContainer = <HTMLElement>document.getElementById('Question19Ans'); <br>
+                            myContainer.innerHTML += " User Input Text :" + s + "<br> <br> Lowest frequency: " + char;
+                            return char; <br>
+                            } <br>
+                            findChar(`${s}`); <br>
+
+                            <br>
+                            } <br>
+                </p>
+                <button onclick="Question19()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu20" style="display: none;">
+                <h1>20. Write a ts program to count frequency of each character in a string.</h1>
+                <p>
+                    var Question20 = () => {<br>
+                    var arr: any | null = prompt("Enter Your String Character", "Saqib Ali");
+                    <br>
+                    function getFrequency(string:any) {<br>
+                    var freq:any = {};<br>
+                    console.log("freq"+ freq.character);<br>
+                    <br>
+                    for (var i=0; i<string.length;i++) { <br>
+                        var character = string.charAt(i);<br>
+                        console.log("Character", character);<br>
+
+                        <br>
+                        if (freq[character]) {<br>
+                        freq[character]++;<br>
+                        } else {<br>
+                        freq[character] = 1;<br>
+                        }<br>
+                        }<br>
+                        <br>
+                        return freq;<br>
+                        };<br>
+                        console.log(getFrequency(arr))<br>
+                        <br>
+                        <br>
+                        }<br>
+
+                </p>
+                <button onclick="Question20()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu21" style="display: none;">
+                <h1>21. Write a ts program to remove first occurrence of a character from string.</h1>
+                <p></p>
+                <button onclick="Question21()" id="a"><span>Run ...</span></button>
+            </div>
+            <div id="Menu22" style="display: none;">
+                
+                <h1>22. Write a ts program to remove last occurrence of a character from string.</h1>
+                <p></p>
+                <button onclick="Question22()" id="a"><span>Run ...</span></button>
+
+            </div>
+            <div id="Menu23" style="display: none;">
+
+                <h1>23. Write a ts program to remove all occurrences of a character from string.</h1>
+                <p></p>
+                <button onclick="Question23()" id="a"><span>Run ...</span></button>
+           
+            </div>
+            <div id="Menu24" style="display: none;">
+                <h1>24. Write a ts program to remove all repeated characters from a given string.</h1>
+                <p></p>
+                <button onclick="Question24()" id="a"><span>Run ...</span></button>
+            
+            </div>
+            <div id="Menu25" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu26" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu27" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu28" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu29" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu30" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu31" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu32" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu33" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu34" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu35" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu36" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu37" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu38" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu39" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu40" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu41" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu42" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu43" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu44" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu45" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu46" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu47" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu48" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu49" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+            <div id="Menu50" style="display: none;">
+                <h1>Saqib ...ASssignment is c...</h1>
+            </div>
+
+        </main>
+
+        <!-- answer -->
+        <aside>
+            <!-- <h2 id="Question1Ans"></h2> -->
+
+            <h2 id="Question1Ans"></h2>
+            <h2 id="Question2Ans"></h2>
+            <h2 id="Question3Ans"></h2>
+            <h2 id="Question4Ans"></h2>
+            <h2 id="Question5Ans"></h2>
+            <h2 id="Question6Ans"></h2>
+            <h2 id="Question7Ans"></h2>
+            <h2 id="Question8Ans"></h2>
+            <h2 id="Question9Ans"></h2>
+            <h2 id="Question10Ans"></h2>
+            <h2 id="Question11Ans"></h2>
+            <h2 id="Question12Ans"></h2>
+            <h2 id="Question13Ans"></h2>
+            <h2 id="Question14Ans"></h2>
+            <h2 id="Question15Ans"></h2>
+            <h2 id="Question16Ans"></h2>
+            <h2 id="Question17Ans"></h2>
+            <h2 id="Question18Ans"></h2>
+            <h2 id="Question19Ans"></h2>
+            <h2 id="Question20Ans"></h2>
+            <h2 id="Question21Ans"></h2>
+            <h2 id="Question22Ans"></h2>
+            <h2 id="Question23Ans"></h2>
+            <h2 id="Question24Ans"></h2>
+            <h2 id="Question25Ans"></h2>
+            <h2 id="Question26Ans"></h2>
+            <h2 id="Question27Ans"></h2>
+            <h2 id="Question28Ans"></h2>
+            <h2 id="Question29Ans"></h2>
+            <h2 id="Question30Ans"></h2>
+            <h2 id="Question31Ans"></h2>
+
+        </aside>
+
+        <footer>
+
+            <!-- <script>
+                function changeValue(diff) {
+                    var count = document.getElementById('count');
+                    count.innerText = +count.innerText + diff;
+                }
+            </script>
+            <h4>Current count: <span id="count">0</span></h4>
+            <div class="container">
+              <button onclick="changeValue(-1)">Decrement</button>
+              <button onclick="changeValue(1)">Increment</button>
+            </div> -->
+
+            <!-- <h3>Footer</h3> -->
+            <button onclick="toggleVisibility('Menu1')" id="a"><span>&laquo; Previous</span></button>
+            <button onclick="toggleVisibility(`Menu2`)" id="a"><span>Next &raquo;</span></button>
+
+
+        </footer>
+    </div>
+
+    <!-- end  -->
+    <!-- <div class="buttons">
+        <a href="#" onclick="toggleVisibility('Menu1');">Menu1</a>
+        <a href="#" onclick="toggleVisibility('Menu2');">Menu2</a>
+        <a href="#" onclick="toggleVisibility('Menu3');">Menu3</a>
+        <a href="#" onclick="toggleVisibility('Menu4');">Menu4</a>
+      </div> -->
+
+    <!-- <div id="Menu1">I'm container one</div>
+        <div id="Menu2" style="display: none;">I'm container two</div>
+        <div id="Menu3" style="display: none;">I'm container three</div>
+        <div id="Menu4" style="display: none;">I'm container four</div> -->
+
+    <script src="app.js"></script>
+    <marquee behavior="" direction="">Saqib Ali</marquee>
+    <marquee behavior="" direction="right">Roll No. 63797</marquee>
+</body>
+
+</html>

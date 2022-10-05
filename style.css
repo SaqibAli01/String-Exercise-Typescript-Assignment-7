@@ -1,0 +1,253 @@
+.main_div
+  {
+  text-align:center;
+  background: #00C492;
+  padding:20px; width: 400px;
+  }
+.inner_div
+  {
+  background: #fff;
+  margin-top:20px;
+  height: 100px;
+  }
+.buttons a
+  {
+  font-size: 16px;
+  line-height: 40px;
+  /* background-color: aqua; */
+  }
+.buttons a:hover
+  {
+  cursor:pointer;
+  font-size: 16px;
+  }
+body{
+  background-color: aqua;
+  height: fit-content;
+}
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+  }
+  
+  header, main, aside, footer{
+    padding:15px 25px;
+    border-radius:24px;
+    display:flex;
+    /* align-items:center; */
+    justify-content:center;
+    /* height: fit-content; */
+
+  }
+  aside{
+    align-items:center;
+
+  }
+  header ,footer{
+    padding: 20px;
+    height: fit-content;
+  }
+  #wrap{
+    display:grid;
+    /* grid-template-rows:40% 100% 100% 100%; */
+    /* grid-template-rows:100% 100% 100% 100%; */
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap:15px;
+    padding:10px;
+  }
+  
+  header{
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:-1;
+    background-color:#850E35;
+    background-color:#00a8e0;
+  
+  }
+  
+  main{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:9;
+    background-color:#FFF5E4;
+  }
+  
+  aside{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:9;
+    grid-column-end:-1;
+    background-color:#FFC4C4;
+  }
+  
+  footer{
+    grid-row-start:3;
+    grid-column-end:4;
+    grid-column-start:1;
+    grid-column-end:-1;
+    background-color:#EE6983;
+  }
+  
+  h3{
+    font-size:3vw;
+  }
+  #hed{
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width:991px){
+    #wrap{
+      display:grid;
+      /* grid-template-rows:45% 100% 100% 100%; */
+      /* grid-template-rows:100% 100% 100% 100%; */
+      grid-template-columns: repeat(12, 1fr);
+      grid-gap:15px;
+      padding:10px;
+    }
+    
+
+    main{
+    grid-column-start:1;
+    grid-column-end:8;
+  }
+  
+  aside{
+    grid-column-start:8;
+    grid-column-end:-1;
+  }
+    
+  }
+  
+  @media (max-width:767px){
+    
+    #wrap{
+    grid-gap:10px;
+    padding:5px;
+  }
+    
+    h3 {
+      font-size: 5vw;
+  }
+    
+    header{
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:-1;
+  }
+  
+  main{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:-1;
+  }
+  
+  aside{
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:1;
+    grid-column-end:-1;
+  }
+  
+  footer{
+    grid-row-start:4;
+    grid-row-end:5;
+  }
+    
+  }
+
+  /* button styles  */
+
+
+  
+  #a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #a span{
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    /* background: #6a67ce; */
+    transition: all .35s;
+  }
+  
+  #a:hover{
+    color: #fff;
+  }
+  
+  #a:hover:after{
+    width: 100%;
+  }
+
+  /* link Header  */
+  a{
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    padding: 8px;
+    
+  }
+  a:hover{
+    color: green;
+    background-color: white;
+
+  }
+  
+  /* footer coding  */
+  /* #foo {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  #foo:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  /* .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  
+  
+  
